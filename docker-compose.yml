@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+  bot:
+    build: .
+    image: support-bot
+    container_name: support-bot
+    depends_on:
+      - redis
+      - postgres
+    links:
+      - redis
+      - postgres
+    env_file:
+      - .development.env
+    volumes:
+       - .:/usr/app
+       - /usr/app/node_modules
+    working_dir: /usr/app
+    command: npm run start:dev
+
+  postgres:
+    image: postgres
+    restart: always
+    env_file:
+      - .development.env
+    ports:
+      - '5432:5432'
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis
+    restart: always
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis:/usr/redis
+
+volumes:
+  redis:
+    driver: local
+  pg_data:

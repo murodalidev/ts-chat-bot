@@ -1,0 +1,18 @@
+{
+  "tryLater": "Qátelik júz berdi! Ótinish keyin urunib kóriń.",
+  "chooseLanguage": "Tildi saylań:",
+  "enterFullName": "Tolıq atıńızdı kiritiń (FIO):",
+  "badUsernameError": "Qopal sóz tapildi.",
+  "sendPhoneNumber": "Ótinish telefon nomerińizdi ##******* formatda kiritiń:\n Mısalı : 991234567",
+  "introduceYourself": "Ótinish <a href=\"https://t.me/${botUsername}?start=introduce\" >ózińizdi</a> tanıstırıń.",
+  "startChat": "Operator menen baylanısıw",
+  "connectOperator": "Operator menen baylanısıw ushın tómendegi tuymeni basıń.",
+  "waitingOperator": "Operator menen baylanıstırnilmoqda. Ótinish kuting...",
+  "waitOperatorToJoin": "Ótinish operator baylanısıwın kuting...",
+  "operatorsBusyError": "Házirde barlıq operatorlar bánt. Ótinish keyin urınıp kóriń.",
+  "chatEndedError": "Chat tamamlanıldı. Ótinish qaytaldan urınıp kóriń.",
+  "operatorJoined": "Operator baylanısda soraw beriwińiz múmkin.",
+  "pleaseWait": "Ótinish kuting...",
+  "endChat": "Chatni juwmaqlaw",
+  "tooManyRequests": "Oǵırı kóp soraw jiberildi. Ótinish ${blockLeftTime} minuttan keyin baylanısıwǵa urınıp kóriń."
+}
